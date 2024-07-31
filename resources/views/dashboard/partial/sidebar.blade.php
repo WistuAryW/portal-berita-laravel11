@@ -54,6 +54,12 @@
                     <span>Data User</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('user') }}">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
         @else
             <li class="nav-item active">
                 <a class="nav-link" href="{{ url('/dashboard') }}">
